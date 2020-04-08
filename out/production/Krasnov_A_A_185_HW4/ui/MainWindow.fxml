@@ -68,17 +68,21 @@
                 <Text fx:id="txtInfo" lineSpacing="10"/>
             </ScrollPane>
             <HBox>
-                <Label text="Row: "/>
                 <padding>
                     <Insets top="10" bottom="15"/>
                 </padding>
+                <Label text="Row: "/>
                 <TextField fx:id="txtXCoord" prefWidth="25"/>
                 <Label text="  Column:"/>
                 <TextField fx:id="txtYCoord" prefWidth="25"/>
             </HBox>
-            <Button fx:id="btnShoot"
-                    text="Shoot"
-                    onAction="#handleBtnShoot"/>
+
+            <VBox spacing="15">
+                <Button text="Shoot"
+                        onAction="#handleBtnShoot"/>
+                <Button text="New game"
+                        onAction="#handleBtnPlayAgain"/>
+            </VBox>
         </VBox>
     </right>
     <bottom>
