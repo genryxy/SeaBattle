@@ -96,7 +96,7 @@ public class Ship {
             return false;
         }
 
-        // Проверяет можно ли поместить корабль так, чтобы он не касался с уже расположенными.
+        // Checks whether the ship can be placed so that it does not touch with those already located.
         int addRow = horizontal ? 1 : length;
         int addColumn = horizontal ? length : 1;
         for (int i = Math.max(0, row - 1); i <= Math.min(ocean.SIZE - 1, row + addRow); i++) {
@@ -115,7 +115,7 @@ public class Ship {
      * @param horizontal The ship's orientation.
      * @param ocean      Access to the ship's array.
      */
-    void placeShipAt(int row, int column, boolean horizontal, Ocean ocean) {
+    public void placeShipAt(int row, int column, boolean horizontal, Ocean ocean) {
         setBowRow(row);
         setBowColumn(column);
         setHorizontal(horizontal);

@@ -4,7 +4,7 @@ public class Cruiser extends Ship {
     /**
      * It's a constructor of the class.
      */
-    Cruiser() {
+    public Cruiser() {
         setLength(3);
         for (int i = 0; i < 4; i++) {
             getHit()[i] = false;

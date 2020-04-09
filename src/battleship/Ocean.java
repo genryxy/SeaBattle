@@ -54,7 +54,7 @@ public class Ocean {
      * @return Returns true if the given location contains a ship, false if it does not.
      */
     public boolean isOccupied(int row, int column) {
-        return !(ships[row][column].getShipType().equals("empty Sea"));
+        return !(getShipsArray()[row][column].getShipType().equals("empty Sea"));
     }
 
     /**

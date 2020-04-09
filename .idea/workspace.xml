@@ -6,23 +6,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Moved methods from Main to Controller, added changing color after hit and new game">
+      <change afterPath="$PROJECT_DIR$/src/test/BattleshipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CruiserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DestroyerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/EmptySeaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/OceanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ShipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SubmarineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Krasnov_A_A_185_HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Krasnov_A_A_185_HW4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Krasnov_A_A_185_HW4_jar/Krasnov_A_A_185_HW4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Krasnov_A_A_185_HW4_jar/Krasnov_A_A_185_HW4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/ui/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/ui/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/ui/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/ui/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/ui/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/ui/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Battleship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Battleship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Cruiser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Cruiser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Destroyer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Destroyer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Ship.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Ship.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Submarine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/battleship/Submarine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Krasnov_A_A_185_HW4/common/Callback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/Battleship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/Battleship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/Cruiser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/Cruiser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/Destroyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/Destroyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/Ocean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/Ocean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleship/Submarine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleship/Submarine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/Callback.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="228" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -72,6 +87,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -104,7 +120,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -114,6 +134,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+      <recent name="battleship" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HSE\java\HW\Krasnov_A_A_185_HW4\src" />
     </key>
@@ -130,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ShipTest">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -171,6 +198,105 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OceanTest.getShipWrecked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Krasnov_A_A_185_HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OceanTest" />
+      <option name="METHOD_NAME" value="getShipWrecked" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OceanTest.getShipsArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Krasnov_A_A_185_HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OceanTest" />
+      <option name="METHOD_NAME" value="getShipsArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OceanTest.placeAllShipsRandomly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Krasnov_A_A_185_HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.OceanTest" />
+      <option name="METHOD_NAME" value="placeAllShipsRandomly" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Krasnov_A_A_185_HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ShipTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShipTest.placeShipAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Krasnov_A_A_185_HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ShipTest" />
+      <option name="METHOD_NAME" value="placeShipAt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -202,6 +328,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShipTest" />
+        <item itemvalue="JUnit.ShipTest.placeShipAt" />
+        <item itemvalue="JUnit.OceanTest.placeAllShipsRandomly" />
+        <item itemvalue="JUnit.OceanTest.getShipWrecked" />
+        <item itemvalue="JUnit.OceanTest.getShipsArray" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -224,8 +359,17 @@
       <workItem from="1586298245398" duration="1901000" />
       <workItem from="1586300390511" duration="2178000" />
       <workItem from="1586350471228" duration="300000" />
-      <workItem from="1586355544189" duration="7800000" />
+      <workItem from="1586355544189" duration="11632000" />
+      <workItem from="1586419972014" duration="7632000" />
     </task>
+    <task id="LOCAL-00001" summary="Moved methods from Main to Controller, added changing color after hit and new game">
+      <created>1586377727893</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586377727893</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,5 +391,35 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Moved methods from Main to Controller, added changing color after hit and new game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved methods from Main to Controller, added changing color after hit and new game" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/battleship/Ocean.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Krasnov_A_A_185_HW4$EmptySeaTest.ic" NAME="EmptySeaTest Coverage Results" MODIFIED="1586421016014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Krasnov_A_A_185_HW4$BattleshipTest.ic" NAME="BattleshipTest Coverage Results" MODIFIED="1586421004987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Krasnov_A_A_185_HW4$SubmarineTest.ic" NAME="SubmarineTest Coverage Results" MODIFIED="1586421025647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Krasnov_A_A_185_HW4$DestroyerTest.ic" NAME="DestroyerTest Coverage Results" MODIFIED="1586420967906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Krasnov_A_A_185_HW4$CruiserTest.ic" NAME="CruiserTest Coverage Results" MODIFIED="1586420986644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
 </project>

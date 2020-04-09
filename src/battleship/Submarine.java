@@ -4,7 +4,7 @@ public class Submarine extends Ship {
     /**
      * It's a constructor of the class.
      */
-    Submarine() {
+    public Submarine() {
         setLength(1);
         for (int i = 0; i < 4; i++) {
             getHit()[i] = false;

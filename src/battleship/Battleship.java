@@ -4,7 +4,7 @@ public class Battleship extends Ship {
     /**
      * It's a constructor of the class.
      */
-    Battleship() {
+    public Battleship() {
         setLength(4);
         for (int i = 0; i < 4; i++) {
             getHit()[i] = false;
